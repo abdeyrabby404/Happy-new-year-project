@@ -73,3 +73,44 @@ main{
     font-size: 48px;
      margin-bottom: 48px;
 }
+
+/* party party section  */
+.partyparty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 120px;
+    background: linear-gradient(0.00deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%), url(../images/Vectorrr.png);
+    /* s */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 138px 70px 126px;
+    border-radius: 16px;
+}
+.partyparty .pp-img img{
+    max-width: 320px;
+}
+.pp-info{
+    width: 697px;
+}
+.pp-title{
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+.pp-desc{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 48px;
+}
+.join{
+    font-size: 20px;
+    padding-left: 32px;
+}
+
+.join a{
+    color: white;
+    text-decoration: none;
+}
