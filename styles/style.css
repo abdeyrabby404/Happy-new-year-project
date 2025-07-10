@@ -1,0 +1,37 @@
+/* font style  */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body main style  */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.party{
+    background-color: #070211;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+}
+.party-info{
+    padding: 177px 344px;
+    width: 632px;
+    text-align: center;
+}
+.party-title{
+    color: white;
+    font-size: 32px;
+}
+.party-subtitle{
+    color: white;
+    font-size: 72px;
+}
