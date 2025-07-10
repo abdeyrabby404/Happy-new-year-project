@@ -6,16 +6,29 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* shared style  */
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.center{
+    text-align: center;
 }
 /* body main style  */
 main{
     max-width: 1320px;
     margin: 0 auto;
 }
+
+/* happy new year section  */
 .party{
     background-color: #070211;
     margin-top: 50px;
@@ -34,4 +47,29 @@ main{
 .party-subtitle{
     color: white;
     font-size: 72px;
+}
+
+/* offer section style  */
+
+.offer{
+    margin-bottom: 120px;
+}
+
+.center > img{
+    width: 410px;
+}
+
+.discount{
+    font-size: 88px;
+    color: red;
+    margin-bottom: 48px;
+}
+.holiday-txt{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 16px;
+}
+.cat-txt{
+    font-size: 48px;
+     margin-bottom: 48px;
 }
